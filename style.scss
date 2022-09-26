@@ -1,0 +1,12 @@
+$theme-colors: (
+    "color3": #ededed,
+    "color4": #708C91,
+    "color2": #054752,
+    "color1": #8b1e3f,
+    "color5": #000,);
+
+$color2: #054752;
+$color3: #ededed;
+$gradient: linear-gradient(90deg, $color2, $color3);
+
+@import "node_modules/bootstrap/scss/bootstrap.scss";
